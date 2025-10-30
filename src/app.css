@@ -1,0 +1,42 @@
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss/utilities" layer(utilities);
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+
+  code {
+    font-family: 'Fira Code', 'Cascadia Code', 'Consolas', 'Monaco', 'Courier New', monospace;
+  }
+}
+
+@layer components {
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: rgb(243 244 246);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgb(209 213 219);
+    border-radius: 0.25rem;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(156 163 175);
+  }
+}
+
+/* Dark mode support - to be implemented */
+@media (prefers-color-scheme: dark) {
+  /*
+   * Dark mode styles will be added here in future versions
+   * This ensures the structure is ready for dark mode support
+   */
+}

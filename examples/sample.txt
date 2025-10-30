@@ -1,0 +1,17 @@
+Welcome to OmniViewer!
+
+This is a sample text file to demonstrate the text viewer functionality.
+
+Features:
+- Drag and drop file upload
+- Multiple viewer types for different file formats
+- Clean and modern UI
+- Extensible architecture
+
+You can view various file types including:
+* Images (JPG, PNG, GIF, WebP, etc.)
+* JSON files (with syntax highlighting or table view)
+* Text files
+* And more coming soon!
+
+Try uploading different file types to see OmniViewer in action.
